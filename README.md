@@ -22,7 +22,7 @@ And then:
 
     $ rails g autotolk:install
 
-And follow the instructions on the screen.
+And follow the instructions on the screen (you will have to add your bing tokens to make it work).
 
 ## Usage
 
