@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.summary       = %q{This gem makes locales in tolk translate automatically (using bing).}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/rajaaa92/autotolk"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
