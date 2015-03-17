@@ -32,6 +32,10 @@ Now when you go to `/tolk/locales/xx` you will see an alert informing you that w
 
 If you have any issues with this gem, feel free to add a new issue on Github.
 
+## Todo
+
+TESTS!! :)
+
 ## Contributing
 
 1. Fork it ( https://github.com/rajaaa92/autotolk/fork )
