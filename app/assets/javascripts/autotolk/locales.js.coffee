@@ -1,8 +1,11 @@
-$(document).on 'ready page:load', ->
-  $( "#container div.translations" ).prepend( "<div style='text-align: right;'><button onclick='startTranslating()'> Start autotranslating!</button></div>" )
-  autotranslatingClicked = 0
+autotranslatingClicked = 0
 
-startTranslating = ->
+$(document).on 'ready page:load', ->
+  $( "#container div.translations" ).prepend( "<div id='autotranslate' style='text-align: right;'><button> Start autotranslating!</button></div>" )
+  $('div#autotranslate').on 'click', 'button', ->
+    startTranslating()
+
+startTranslating = () ->
   autotranslatingClicked += 1
   to_lang = document.URL.split('/').slice(-1).pop()
   $translation_rows = $('table.translations tbody tr:not(:first-child)')
