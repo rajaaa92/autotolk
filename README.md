@@ -26,7 +26,7 @@ And follow the instructions on the screen (you will have to add your bing tokens
 
 ## Usage
 
-Now when you go to `/tolk/locales/xx` you will see an alert informing you that when you double click anywhere, the translation will be automatic. The text areas will fill out with the translated text, so you could change it if needed and save.
+Now when you go to `/tolk/locales/xx` you will see a button `Start autotranslating!`. When you click on it, the translation will be automatic. The text areas will fill out with the translated text, so you could change it if needed and save.
 
 ## Issues
 
