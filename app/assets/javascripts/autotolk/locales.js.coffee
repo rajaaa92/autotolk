@@ -7,7 +7,7 @@ $(document).on 'ready page:load', ->
 
 startTranslating = () ->
   autotranslatingClicked += 1
-  to_lang = document.URL.split('/').slice(-1).pop()
+  to_lang = document.URL.split('?')[0].split('/').slice(-1).pop()
   $translation_rows = $('table.translations tbody tr:not(:first-child)')
   for $translation_row in $translation_rows
     original = $translation_row.querySelector('td.original textarea#translations__original_text').innerText
