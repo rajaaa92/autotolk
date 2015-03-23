@@ -17,6 +17,6 @@ startTranslating = () ->
 
 translate = (original, to, textarea) ->
   $.get '/translate', {original: original, to: to}, ((response) ->
-    if response.status == 200
+    if response.status >= 200 && response.status < 400
       textarea.innerText = response.translated
   ), 'json'
